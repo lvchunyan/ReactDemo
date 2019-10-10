@@ -1,10 +1,10 @@
-import React,{Component} from 'react'
+import React, {Component} from 'react'
 
 // import React from 'react'
 // const Component = React.Component
 
-class App extends Component{
-    render(){
+class App extends Component {
+    render() {
         return (
             //JSX就是在react的javascript写html代码
             <ul className="my-list">
@@ -17,4 +17,5 @@ class App extends Component{
         // var root = React.createElement('ul',{className:'my-list'},child1,child2)
     }
 }
+
 export default App
