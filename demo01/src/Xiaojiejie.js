@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react'
 import './style.css' //webpack功劳
+import axios from 'axios'
 import XiaojiejieItem from './XiaojiejieItem'
 
 class Xiaojiejie extends Component {
@@ -13,26 +14,32 @@ class Xiaojiejie extends Component {
         }
     }
 
-    // componentWillMount(){
-    //     console.log('组件将挂载到页面')
-    // }
-    //
-    // componentDidMount(){
-    //     console.log('组件挂载完成')
-    // }
-    //
-    // shouldComponentUpdate(){
-    //     console.log('shouldComponentUpdate')
-    //     return true
-    // }
-    //
-    // componentWillUpdate(){
-    //     console.log('componentWillUpdate')
-    // }
-    //
-    // componentDidUpdate(){
-    //     console.log('componentDidUpdate')
-    // }
+    UNSAFE_componentWillMount(){
+        console.log('组件将挂载到页面')
+    }
+
+    componentDidMount(){
+        console.log('组件挂载完成')
+        axios.post('https://web-api.juejin.im/v3/web/wbbr/bgeda')
+            .then(res => {
+                console.log('获取数据成功' + JSON.stringify(res))
+            }).catch(error => {
+                console.log('获取信息失败' + error)
+        })
+    }
+
+    shouldComponentUpdate(){
+        console.log('shouldComponentUpdate')
+        return true
+    }
+
+    UNSAFE_componentWillUpdate(){
+        console.log('componentWillUpdate')
+    }
+
+    componentDidUpdate(){
+        console.log('componentDidUpdate')
+    }
 
     //渲染，生命周期函数
     render() {

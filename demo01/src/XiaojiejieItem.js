@@ -7,7 +7,7 @@ class XiaojiejieItem extends Component {
         this.handleClick = this.handleClick.bind(this);
     }
     //组件第一次存在dom中，函数不执行；如果已经存在于dom中，函数才被执行
-    componentWillReceiveProps(){
+    UNSAFE_componentWillReceiveProps(){
         console.log('componentWillReceiveProps')
     }
 
