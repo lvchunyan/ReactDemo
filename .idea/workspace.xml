@@ -29,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XiaojiejieItem.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="XiaojiejieItem.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo01/src/XiaojiejieItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+            <state relative-caret-position="330">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -65,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Xiaojiejie.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Xiaojiejie.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo01/src/Xiaojiejie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="68" column="62" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
+            <state relative-caret-position="300">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -112,8 +112,8 @@
         <option value="$PROJECT_DIR$/demo01/src/style.css" />
         <option value="$PROJECT_DIR$/demo01/src/test.js" />
         <option value="$PROJECT_DIR$/demo01/public/index.html" />
-        <option value="$PROJECT_DIR$/demo01/src/XiaojiejieItem.js" />
         <option value="$PROJECT_DIR$/demo01/src/Xiaojiejie.js" />
+        <option value="$PROJECT_DIR$/demo01/src/XiaojiejieItem.js" />
       </list>
     </option>
   </component>
@@ -165,12 +165,6 @@
               <item name="ReactDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReactDemo" type="462c0819:PsiDirectoryNode" />
               <item name="demo01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ReactDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -260,7 +254,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570674890565</updated>
       <workItem from="1570674894118" duration="8664000" />
-      <workItem from="1570693787825" duration="7886000" />
+      <workItem from="1570693787825" duration="12380000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1570677892169</created>
@@ -273,7 +267,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16550000" />
+    <option name="totallyTimeSpent" value="21044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="23" width="1336" height="823" extended-state="0" />
@@ -366,13 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo01/src/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo01/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -396,22 +383,29 @@
     <entry file="file://$PROJECT_DIR$/demo01/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo01/src/XiaojiejieItem.js">
+    <entry file="file://$PROJECT_DIR$/demo01/src/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo01/src/Xiaojiejie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="68" column="62" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
+        <state relative-caret-position="300">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/XiaojiejieItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,7 +3,8 @@ import './style.css' //webpack功劳
 import XiaojiejieItem from './XiaojiejieItem'
 
 class Xiaojiejie extends Component {
-    //js的构造函数，由于其他任何函数执行，定义数据
+    //生命周期：在某一时刻可以自动执行的函数
+    //js的构造函数，由于其他任何函数执行，定义数据，constructor是es6的语法
     constructor(props) {
         super(props) //调用父类的构造函数，固定写法，调用Component中的方法
         this.state = {
@@ -12,7 +13,30 @@ class Xiaojiejie extends Component {
         }
     }
 
+    // componentWillMount(){
+    //     console.log('组件将挂载到页面')
+    // }
+    //
+    // componentDidMount(){
+    //     console.log('组件挂载完成')
+    // }
+    //
+    // shouldComponentUpdate(){
+    //     console.log('shouldComponentUpdate')
+    //     return true
+    // }
+    //
+    // componentWillUpdate(){
+    //     console.log('componentWillUpdate')
+    // }
+    //
+    // componentDidUpdate(){
+    //     console.log('componentDidUpdate')
+    // }
+
+    //渲染，生命周期函数
     render() {
+        console.log('挂载中')
         return (
             //flex
             <Fragment>
