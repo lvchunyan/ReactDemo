@@ -22,10 +22,16 @@ class Xiaojiejie extends Component {
                 }
                 <div>
                     <label htmlFor="input">增加服务：</label>
-                    <input id="input" className="input" value={this.state.inputValue} onChange={this.inputChange.bind(this)}/>
+                    <input
+                        id="input"
+                        className="input"
+                        value={this.state.inputValue}
+                        onChange={this.inputChange.bind(this)}
+                        ref={input => (this.input = input)}
+                    />
                     <button onClick={this.addList.bind(this)}>增加服务</button>
                 </div>
-                <ul>
+                <ul ref={ul => (this.ul = ul)}>
                     {
                         this.state.list.map((item, index) => {
                             return (
@@ -43,20 +49,24 @@ class Xiaojiejie extends Component {
         );
     }
 
-    inputChange(e) {
+    inputChange() {
         // console.log(this)
         // this.state.inputValue = e.target.value
         this.setState({
-            inputValue: e.target.value
+            inputValue: this.input.value
         })
     }
 
     addList() {
+        //setState异步方法
         this.setState({
             list: [...this.state.list, this.state.inputValue],
             //list:['基础按摩','精油推背',this.state.inputValue]
 
             inputValue: ''
+        },() =>{
+            //虚拟dom
+            console.log(this.ul.querySelectorAll('li').length)
         })
     }
 
