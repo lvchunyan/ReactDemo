@@ -45,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/demo01/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="256">
-                <caret line="221" column="8" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
+              <first_editor relative-caret-position="312">
+                <caret line="173" column="38" lean-forward="true" selection-start-line="173" selection-start-column="38" selection-end-line="173" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -145,7 +145,7 @@
       <path value="$PROJECT_DIR$/demo01/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="52" />
     <option name="y" value="23" />
     <option name="width" value="1336" />
@@ -173,12 +173,6 @@
               <item name="ReactDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReactDemo" type="462c0819:PsiDirectoryNode" />
               <item name="demo01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,7 +256,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570674890565</updated>
       <workItem from="1570674894118" duration="8664000" />
-      <workItem from="1570693787825" duration="30328000" />
+      <workItem from="1570693787825" duration="32146000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1570677892169</created>
@@ -275,11 +269,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38992000" />
+    <option name="totallyTimeSpent" value="40810000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="23" width="1336" height="823" extended-state="0" />
-    <editor active="true" />
+    <frame x="52" y="23" width="1336" height="823" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -447,8 +440,8 @@
     <entry file="file://$PROJECT_DIR$/demo01/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="256">
-            <caret line="221" column="8" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
+          <first_editor relative-caret-position="312">
+            <caret line="173" column="38" lean-forward="true" selection-start-line="173" selection-start-column="38" selection-end-line="173" selection-end-column="38" />
           </first_editor>
           <second_editor />
         </state>
