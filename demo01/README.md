@@ -186,7 +186,7 @@ react快速生成插件：React Snippets
 ### 组件性能优化（生命周期）
 > 子组件中的render函数频繁无用渲染
  - 利用shouldComponentUpdate解决；两个参数：nextProps:变化后的属性;nextState:变化后的状态
- ```js
+ ```jsx
    shouldComponentUpdate(nextProps,nextState){
        if(nextProps.content !== this.props.content){
            return true
@@ -205,7 +205,7 @@ react快速生成插件：React Snippets
  - npm install -save xxx：-save的意思是将模块安装到项目目录下，并在package文件的dependencies节点写入依赖。
  - npm install -save-dev xxx：-save-dev的意思是将模块安装到项目目录下，并在package文件的devDependencies节点写入依赖。
 
- ```js
+ ```jsx
   componentDidMount(){
       axios.post('https://web-api.juejin.im/v3/web/wbbr/bgeda')
           .then((res)=>{console.log('axios 获取数据成功:'+JSON.stringify(res))  })
@@ -214,5 +214,66 @@ react快速生成插件：React Snippets
  ```
  
 ### Axios请求EasyMock
+ > EasyMock网站:https://www.easy-mock.com/
 
+
+### react动画效果
+
+  ```css
+    .show{ opacity: 1; transition:all 1.5s ease-in;}
+    .hide{opacity: 0; transition:all 1.5s ease-in;}
+
+  ```
+
+### CSS3的keyframes动画
+  
+  
+  ```css
+    .show{ animation:show-item 2s ease-in forwards; }
+    .hide{ animation:hide-item 2s ease-in forwards; }
+    
+    @keyframes hide-item{
+        0% {
+            opacity:1;
+            color:yellow;
+        }
+        50%{
+            opacity: 0.5 ;
+            color:red;
+        }
+        100%{
+            opacity:0;
+            color: green;
+        }
+    }
+    
+    @keyframes show-item{
+        0% {
+            opacity:0;
+            color:yellow;
+        }
+        50%{
+            opacity: 0.5 ;
+            color:red;
+        }
+        100%{
+            opacity:1;
+            color: green;
+        }
+    }
+
+  ```
+  
+### React高级-react-transition-group动画效果
+ - Transition
+ - CSSTransition
+  ```markdown
+   xxx-enter: 进入（入场）前的CSS样式；
+   xxx-enter-active:进入动画直到完成时之前的CSS样式;
+   xxx-enter-done:进入完成时的CSS样式;
+   xxx-exit:退出（出场）前的CSS样式;
+   xxx-exit-active:退出动画知道完成时之前的的CSS样式。
+   xxx-exit-done:退出完成时的CSS样式。
+  ```
+ - TransitionGroup
 

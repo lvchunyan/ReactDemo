@@ -45,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/demo01/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="391">
-                <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
+              <first_editor relative-caret-position="256">
+                <caret line="221" column="8" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -180,12 +180,6 @@
               <item name="demo01" type="462c0819:PsiDirectoryNode" />
               <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ReactDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -268,7 +262,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570674890565</updated>
       <workItem from="1570674894118" duration="8664000" />
-      <workItem from="1570693787825" duration="29813000" />
+      <workItem from="1570693787825" duration="30328000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1570677892169</created>
@@ -281,7 +275,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38477000" />
+    <option name="totallyTimeSpent" value="38992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="23" width="1336" height="823" extended-state="0" />
@@ -297,10 +291,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3292011" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3292011" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534776" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534776" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -453,8 +447,8 @@
     <entry file="file://$PROJECT_DIR$/demo01/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="391">
-            <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
+          <first_editor relative-caret-position="256">
+            <caret line="221" column="8" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
