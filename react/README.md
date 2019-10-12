@@ -1,4 +1,4 @@
-![avatar](image/react16_image.png)
+![avatar](./image/react16_image.png)
 
 react总结：
   - 组件化编写
@@ -160,7 +160,7 @@ react快速生成插件：React Snippets
  - 2.Mounting: 挂在阶段。
  - 3.Updation: 更新阶段。
  - 4.Unmounting: 销毁阶段
-![avatar](image/react1901.png)
+![avatar](./image/react1901.png)
 
 > Initialization阶段
  - render()函数，就是一个生命周期函数，它在state发生改变时自动执行。这就是一个标准的自动执行函数。
