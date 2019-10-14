@@ -160,6 +160,7 @@ react快速生成插件：React Snippets
  - 2.Mounting: 挂在阶段。
  - 3.Updation: 更新阶段。
  - 4.Unmounting: 销毁阶段
+ 
 ![avatar](./image/react1901.png)
 
 > Initialization阶段
